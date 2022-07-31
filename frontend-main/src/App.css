@@ -1,0 +1,85 @@
+#addNote{
+  position: fixed;
+  bottom: 5%;
+  right: 5%;
+  z-index: 1;
+}
+textarea:hover, 
+input:hover, 
+textarea:active, 
+input:active, 
+textarea:focus, 
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus
+/* .btn:active, */
+/* .btn.active */
+{
+    outline:0px !important;
+    -webkit-appearance:none;
+    box-shadow: none !important;
+}
+
+
+ @media (max-width: 768px) {
+   #logoDesktop{
+     display: none;
+   }
+  .navbar-collapse {
+      position: absolute;
+      top: 0;
+      left: 0;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-bottom: 1500px;
+      width: 48%;
+      background-color: #f0f0f0;
+      float: left;
+  }
+   .navbar-collapse.collapsing { 
+      height: auto;
+      -webkit-transition: left 0.2s ease;
+      -o-transition: left 0.2s ease;
+      -moz-transition: left 0.2s ease;
+      transition: left 0.2s ease;
+      left: -100%;
+   
+  }
+  .navbar-collapse.show {
+      left: 0;
+      -webkit-transition: left 0.2s ease-in;
+      -o-transition: left 0.2s ease-in;
+      -moz-transition: left 0.2s ease-in;
+      transition: left 0.2s ease-in;
+      
+  } 
+  #logoutBtnPhone{
+    margin-top: 270%;
+    width: 1000px;
+    margin-left:5%;
+    margin-right:5%;
+
+  }
+  #divWhichShowsNotes{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+ 
+}
+
+@media (min-width: 768px) {
+  #logoPhone{
+    display: none;
+  }
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus,
+.navbar-toggler {
+    outline: none;
+    box-shadow: none;
+}
+
