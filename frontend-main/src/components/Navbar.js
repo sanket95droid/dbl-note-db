@@ -43,7 +43,7 @@ export const Navbar = () => {
               >
                 <div style={{display:'flex'}}>
                   <Link className="navbar-brand " to="/">
-                    iNoteBook
+                    NoteDB
                   </Link>
                   <button
                     style={{ border: "none", width:'100px' }}
